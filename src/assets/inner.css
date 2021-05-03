@@ -1,0 +1,146 @@
+.inner{
+    overflow: hidden;
+}
+
+.inner img{
+    transition: all 1.5s ease; 
+}
+
+.inner:hover img{
+    transform: scale(1.5);
+}
+
+@media (min-width: 992px) {
+    .animate {
+      animation-duration: 0.3s;
+      -webkit-animation-duration: 0.3s;
+      animation-fill-mode: both;
+      -webkit-animation-fill-mode: both;
+    }
+  }
+  
+  @keyframes slideIn {
+    0% {
+      transform: translateY(1rem);
+      opacity: 0;
+    }
+    100% {
+      transform:translateY(0rem);
+      opacity: 1;
+    }
+    0% {
+      transform: translateY(1rem);
+      opacity: 0;
+    }
+  }
+  
+  @-webkit-keyframes slideIn {
+    0% {
+      -webkit-transform: transform;
+      -webkit-opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateY(0);
+      -webkit-opacity: 1;
+    }
+    0% {
+      -webkit-transform: translateY(1rem);
+      -webkit-opacity: 0;
+    }
+  }
+  
+  .slideIn {
+    -webkit-animation-name: slideIn;
+    animation-name: slideIn;
+  }
+  .effect1{
+    -webkit-box-shadow: 0 9px 5px -8px #777;
+       -moz-box-shadow: 0 9px 5px -8px rgb(168, 167, 167);
+            box-shadow: 0 9px 5px -8px #777;
+  }
+
+  
+section #services {
+    text-align: center;
+    transform: translatez(0);
+  }
+  section #services h2 {
+    margin: 10px 0px 10px;
+    color: #fff;
+    font-size: 2.0em;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  section #services li {
+    width: 120px;
+    height: 140px;
+    display: inline-block;
+    margin: 10px;
+    list-style: none;
+  }
+  section #services li div {
+    width: 120px;
+    height: 120px;
+    color: #74d4b3;
+    font-size: 3.4em;
+    text-align: center;
+    line-height: 120px;
+    background-color: #fff;
+    transition: all 0.5s ease;
+  }
+  section #services li a {
+    color: #01b5e8;
+  }
+  section #services li div:hover {
+    transform: rotate(360deg);
+    border-radius: 100px;
+  }
+  section #services li span {
+    width: 120px;
+    height: 20px;
+    display: block;
+    padding: 15px 0px;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1.2em;
+    text-align: center;
+  }
+  .credits a {
+    display: block;
+    text-align: center;
+    color: #74d4b3;
+    text-decoration: none;
+    font-size: 24px;
+    margin-top: 50px;
+    background: white;
+    padding: 20px;
+    max-width: 300px;
+  }
+  
+  .float{
+	position:fixed;
+	width:65px;
+	height:65px;
+	bottom:45px;
+	right:45px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:55px;
+	text-align:center;
+  font-size:35px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+.float:hover {
+	text-decoration: none;
+	color: #25d366;
+  background-color:#fff;
+  
+}
+
+.my-float{
+	margin-top:16px;
+}
+
+  /* Other styles for the page not related to the animated dropdown */
+  
